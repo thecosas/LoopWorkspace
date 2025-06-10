@@ -283,6 +283,7 @@ jobs:
           # and make sure to specify the submodule by setting "--directory=(submodule_name)".
           # Several patches may be added per submodule.
           # Adding comments (#) may be useful to easily tell the individual patches apart.
+<<<<<<< HEAD
           
           # The lines below add the customizations listed using the CustomizationSelect script
           # The "\" is a continuation character 
@@ -292,10 +293,9 @@ jobs:
           now_line \
           watch_title \
           live_activity
+=======
+>>>>>>> parent of 9dd4162 (Update build_loop.yml)
 
-          # the final customization listed above CANNOT have a continuation character
-          # more customizations can be pasted after this line
-          
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
         run: |
